@@ -1,43 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    <title>APR Announcements Embed Processor</title>
+  </head>
 
   <body>
-    <h1>APR Morning Announcements Embed Generator</h1>
+    <div>
+      <h1>APR Morning Announcements Embed Processor</h1>
+      <p>Please note that only YouTube links work!</p>
+    </div>
 
     <div>
       <p>Paste a YouTube video link here:</p>
-      <form ONSUBMIT="GenerateEmbed(); return false;">
-        <input type="text" id="VideoLink">
+      <form onsubmit="GenerateEmbed(); return false;">
+        <input type="text" id="videoLink">
         <input type="submit" value="Submit">
       </form>
     </div>
 
-    <div>
-      <h2>Generated Code</h2>
-      <blockquote>
-        <div id="EmbedOutput"></div>
-      </blockquote>
+    <div id="partOne" style="display:none;">
+      <h2>Embed Test</h2>
+      <div id="embeddedVideo"></div>
+      <p>Please confirm that the embedded video above works before copying the code:</p>
+      <form onsubmit="DisplayCode(); return false;">
+        <input type="submit" value="Confirm">
+      </form>
     </div>
 
-    <div>
-      <h2>Embed Test</h2>
-      <p>Do not use code if the test does not work!</p>
-      <div id="EmbedDisplay"></div>
+    <div id="partTwo" style="display:none;">
+      <h2>Generated Code</h2>
+      <div id="codeDisplay"></div>
+      <button onclick="CopyEmbed(); return false;">Copy</button>
     </div>
 
     <script>
       function GenerateEmbed() {
-        var FieldValue = document.getElementById("VideoLink").value;
-        var Video = FieldValue.split(/([/=]+)/).pop();
-        console.log(`The video identifier is ${Video}`);
+        var fieldValue = document.getElementById("videoLink").value;
+        var video = fieldValue.split(/([/=]+)/).pop();
+        console.log(`[GenerateEmbed Function] The video identifier is ${video}`);
 
-        var ProcessedEmbed = `<iframe style="aspect-ratio:16/9;width:1024px;max-width:95%" src="https://www.youtube.com/embed/${Video}" title="26May 2023 Announcements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+        var processedEmbed = `<iframe style="aspect-ratio:16/9;width:1024px;max-width:95%" src="https://www.youtube.com/embed/${video}" title="26May 2023 Announcements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+        console.log(`[GenerateEmbed Function] The video embed has been processed.`);
 
-        document.getElementById("EmbedOutput").innerText = ProcessedEmbed;
-        document.getElementById("EmbedDisplay").innerHTML = ProcessedEmbed;
+        document.getElementById("embeddedVideo").innerHTML = processedEmbed;
+        document.getElementById("partOne").style.display = `block`;
+      }
+
+      function DisplayCode() {
+        var fieldValue = document.getElementById("videoLink").value;
+        var video = fieldValue.split(/([/=]+)/).pop();
+        console.log(`[DisplayCode Function] The video identifier is ${video}`);
+
+        var processedEmbed = `<iframe style="aspect-ratio:16/9;width:1024px;max-width:95%" src="https://www.youtube.com/embed/${video}" title="26May 2023 Announcements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+        console.log(`[DisplayCode Function] The video embed has been processed.`);
+
+        document.getElementById("codeDisplay").innerText = processedEmbed;
+        document.getElementById("partTwo").style.display = `block`;
+      }
+
+      function CopyEmbed() {
+        var fieldValue = document.getElementById("videoLink").value;
+        var video = fieldValue.split(/([/=]+)/).pop();
+        console.log(`[CopyEmbed Function] The video identifier is ${video}`);
+
+        var processedEmbed = `<iframe style="aspect-ratio:16/9;width:1024px;max-width:95%" src="https://www.youtube.com/embed/${video}" title="26May 2023 Announcements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+        console.log(`[CopyEmbed Function] The video embed has been processed.`);
+
+        try {
+          navigator.clipboard.writeText(processedEmbed);
+          console.log(`Content copied to clipboard`);
+        } catch (err) {
+          console.error(`Failed to copy: `, err);
+        }
       }
     </script>
   </body>
-
 </html>
