@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+
+  <body>
+    <h1>APR Morning Announcements Embed Generator</h1>
+
+    <div>
+      <p>Paste a YouTube video link here:</p>
+      <form ONSUBMIT="GenerateEmbed(); return false;">
+        <input type="text" id="VideoLink">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div>
+      <h2>Generated Code</h2>
+      <blockquote>
+        <div id="EmbedOutput"></div>
+      </blockquote>
+    </div>
+
+    <div>
+      <h2>Embed Test</h2>
+      <p>Do not use code if the test does not work!</p>
+      <div id="EmbedDisplay"></div>
+    </div>
+
+    <script>
+      function GenerateEmbed() {
+        var FieldValue = document.getElementById("VideoLink").value;
+        var Video = FieldValue.split(/([/=]+)/).pop();
+        console.log(`The video identifier is ${Video}`);
+
+        var ProcessedEmbed = `<iframe style="aspect-ratio:16/9;width:1024px;max-width:95%" src="https://www.youtube.com/embed/${Video}" title="26May 2023 Announcements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+
+        document.getElementById("EmbedOutput").innerText = ProcessedEmbed;
+        document.getElementById("EmbedDisplay").innerHTML = ProcessedEmbed;
+      }
+    </script>
+  </body>
+
+</html>
