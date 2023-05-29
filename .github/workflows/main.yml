@@ -1,0 +1,11 @@
+name: Refresh Feed
+on: [push]
+jobs:
+  refresh-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch API Data 📦
+        uses: JamesIves/fetch-api-data-action@v2
+        with:
+          endpoint: https://youtube.googleapis.com/youtube/v3/playlistItemspart=snippet&maxResults=10&playlistId=UU_zkRpcTX_4aHjEeYK_tg7A&key=${{ secrets.API_KEY }}
+          configuration: '{ "method": "GET" }'
