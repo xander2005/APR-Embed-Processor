@@ -18,6 +18,6 @@ jobs:
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: xander2005-patch-1
+          branch: main
           folder: fetch-api-data-action
           target-folder: data
