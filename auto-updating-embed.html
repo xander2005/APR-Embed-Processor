@@ -25,20 +25,42 @@
               let videoInfoObj = await fetch(file);
               let videoInfoText = await videoInfoObj.text();
               const videoInfo = JSON.parse(videoInfoText);
-
-              const videoStyle = 'aspect-ratio:16/9;width:1024px;max-width:95%';
+              
+              const videoStyle = 'aspect-ratio:16/9;width:1024px;max-width:95%;';
               const videoOptions = 'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen';
               let videoPlayer = '<iframe style="' + videoStyle + '" src="https://www.youtube.com/embed/' + videoInfo.items[0].snippet.resourceId.videoId + '" title="' + videoInfo.items[0].snippet.title + '" ' + videoOptions + '></iframe>';
-
+              
               document.getElementById("videoFrame").innerHTML = `${videoPlayer}
               <p style="color:white;cursor:default;">Video loaded using JavaScript</p>`;
             } catch (error) {
-              document.getElementById("videoFrame").innerHTML = `<iframe style="aspect-ratio:16/9;width:1024px;max-width:95%" src="https://www.youtube.com/embed/318Aay4ac6M" title="Tuesday May 30th morning Announcements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+              document.getElementById("videoFrame").innerHTML = `<iframe style="aspect-ratio:16/9;width:1024px;max-width:95%;" src="https://www.youtube.com/embed/318Aay4ac6M" title="Tuesday May 30th morning Announcements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
               <p style="color:white;cursor:default;">Video loaded with pre-configured embed</p>`;
             }
           }
-          
+            
           loadVideo("https://xander2005.github.io/APR-Embed-Processor/data/data.json");
+        </script>
+      </section>
+
+      <section class="fluid-container mt-4 mx-5">
+        <h2>Code:</h2>
+        <iframe id="codeFrame" style="width:1024px;max-width:95%;height:300px;background-color:black;"></iframe>
+        <script>
+          async function loadText(file) {
+            let codeFile = await fetch(file);
+            let codeText = await codeFile.text();
+
+            function writeToIframe(iframe, markup) {
+              iframe.contentWindow.document.open();
+              iframe.contentWindow.document.write('<pre id="code" style="color:white;white-space:pre-wrap;"></pre>')
+              iframe.contentWindow.document.getElementById('code').textContent = markup;
+              iframe.contentWindow.document.close();
+            }
+
+            writeToIframe(document.getElementById('codeFrame'), codeText);
+          }
+
+          loadText('https://xander2005.github.io/APR-Embed-Processor/data/auto-updating-embed-code.txt');
         </script>
       </section>
     </main>

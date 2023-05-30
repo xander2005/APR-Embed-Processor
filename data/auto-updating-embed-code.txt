@@ -6,7 +6,7 @@
       let videoInfoText = await videoInfoObj.text();
       const videoInfo = JSON.parse(videoInfoText);
 
-      const videoStyle = 'aspect-ratio:16/9;width:1024px;max-width:95%';
+      const videoStyle = 'aspect-ratio:16/9;width:1024px;max-width:95%;';
       const videoOptions = 'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen';
       let videoPlayer = '<iframe style="' + videoStyle + '" src="https://www.youtube.com/embed/' + videoInfo.items[0].snippet.resourceId.videoId + '" title="' + videoInfo.items[0].snippet.title + '" ' + videoOptions + '></iframe>';
 
