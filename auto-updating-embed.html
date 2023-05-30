@@ -18,20 +18,27 @@
         <p>This video updates at 8:00 AM, Mon-Fri.</p>
         <div id="videoFrame"></div>
         <script>
-          loadVideo("https://xander2005.github.io/APR-Embed-Processor/data/data.json");
-          
           async function loadVideo(file) {
             let videoInfoObj = await fetch(file);
             let videoInfoText = await videoInfoObj.text();
-            const videoInfo = JSON.parse(videoInfoText);
+            
+            try {
+              const videoInfo = JSON.parse(videoInfoText);
 
-            const videoStyle = 'aspect-ratio:16/9;width:1024px;max-width:95%';
-            const videoOptions = 'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen';
-            let videoPlayer = '<iframe style="' + videoStyle + '" src="https://www.youtube.com/embed/' + videoInfo.items[0].snippet.resourceId.videoId + '" title="' + videoInfo.items[0].snippet.title + '" ' + videoOptions + '></iframe>';
-      
-            document.getElementById("videoFrame").innerHTML = videoPlayer;
+              const videoStyle = 'aspect-ratio:16/9;width:1024px;max-width:95%';
+              const videoOptions = 'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen';
+              let videoPlayer = '<iframe style="' + videoStyle + '" src="https://www.youtube.com/embed/' + videoInfo.items[0].snippet.resourceId.videoId + '" title="' + videoInfo.items[0].snippet.title + '" ' + videoOptions + '></iframe>';
+
+              document.getElementById("videoFrame").innerHTML = `${videoPlayer}
+              <p style="color:white;cursor:default;">Video loaded using JavaScript</p>`;
+            } catch (error) {
+              document.getElementById("videoFrame").innerHTML = `<iframe style="aspect-ratio:16/9;width:1024px;max-width:95%" src="https://www.youtube.com/embed/318Aay4ac6M" title="Tuesday May 30th morning Announcements" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+              <p style="color:white;cursor:default;">Video loaded with pre-configured embed</p>`;
+            }
           }
-          </script>
+          
+          loadVideo("https://xander2005.github.io/APR-Embed-Processor/data/data.json");
+        </script>
       </section>
     </main>
 
