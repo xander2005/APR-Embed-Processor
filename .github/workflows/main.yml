@@ -24,3 +24,4 @@ jobs:
           branch: main
           folder: fetch-api-data-action
           target-folder: data
+          clean: false
