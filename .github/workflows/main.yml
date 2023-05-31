@@ -21,7 +21,7 @@ jobs:
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: test
+          branch: main
           folder: fetch-api-data-action
           target-folder: data
           clean: false
