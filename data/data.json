@@ -1,6 +1,6 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "SHKRbfLBVdRG57xXOuKFUUIhhA8",
+  "etag": "JXuDeCWvEQRqqbwKz_DfWlWboGA",
   "items": [
     {
       "kind": "youtube#playlistItem",
@@ -192,7 +192,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "O6zWxUqUcU8ZnDCECa6q9WHV0qc",
+      "etag": "upIad865Y8iRI0o8OxAZLDdSgVo",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLjBkMGJ1WmdwSmpB",
       "snippet": {
         "publishedAt": "2023-05-26T00:37:23Z",
