@@ -1,10 +1,47 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "gT7-P540pbwNWftYA1qfIUVSiVY",
+  "etag": "L6nhvyLyZE0KEZ1bjUeKF4i7oOA",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "lcYSk2ZpDHmJDgMD5RIGksPhqi8",
+      "etag": "t5gcZGavvMvsq84LH8GTMjxnNcM",
+      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLnEzRklvV0d5djRJ",
+      "snippet": {
+        "publishedAt": "2023-08-12T06:59:15Z",
+        "channelId": "UC_zkRpcTX_4aHjEeYK_tg7A",
+        "title": "Monday, August 14th Morning Announcements",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q3FIoWGyv4I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q3FIoWGyv4I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q3FIoWGyv4I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "APRjags",
+        "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "q3FIoWGyv4I"
+        },
+        "videoOwnerChannelTitle": "APRjags",
+        "videoOwnerChannelId": "UC_zkRpcTX_4aHjEeYK_tg7A"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "UmaJBDkfY44VxehpW23qJ8MogTo",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLncxMDlSTExVQ09Z",
       "snippet": {
         "publishedAt": "2023-06-01T22:32:48Z",
@@ -40,7 +77,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 0,
+        "position": 1,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "w109RLLUCOY"
@@ -51,7 +88,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "LEyAj2iWatXWLkQjAoPp1M5mCeI",
+      "etag": "MDFFu7osMWe3qE7KvbG67tM_Jds",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLnhtdV83TFZrNFVF",
       "snippet": {
         "publishedAt": "2023-05-31T23:24:53Z",
@@ -87,7 +124,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 1,
+        "position": 2,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "xmu_7LVk4UE"
@@ -98,7 +135,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "40TbnTWh3kS2zlhDU8_HnW8Nm_E",
+      "etag": "_hgqY3tUfyFe_oODTgSvr0y1C-M",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLkQwSk9CS3psM1dz",
       "snippet": {
         "publishedAt": "2023-05-31T10:42:44Z",
@@ -134,7 +171,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 2,
+        "position": 3,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "D0JOBKzl3Ws"
@@ -145,7 +182,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "cYb8DT4kwxxqIle2167k1paalQc",
+      "etag": "jalLEYMSTxO17WPQqLwbSTek--k",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLjMxOEFheTRhYzZN",
       "snippet": {
         "publishedAt": "2023-05-27T18:53:43Z",
@@ -181,7 +218,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 3,
+        "position": 4,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "318Aay4ac6M"
@@ -192,7 +229,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "upIad865Y8iRI0o8OxAZLDdSgVo",
+      "etag": "lpc2bEhXDa4RWkAs8xWMgHEw77E",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLjBkMGJ1WmdwSmpB",
       "snippet": {
         "publishedAt": "2023-05-26T00:37:23Z",
@@ -228,7 +265,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 4,
+        "position": 5,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "0d0buZgpJjA"
@@ -239,7 +276,7 @@
     }
   ],
   "pageInfo": {
-    "totalResults": 5,
+    "totalResults": 6,
     "resultsPerPage": 10
   }
 }
