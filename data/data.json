@@ -1,41 +1,31 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "0YD_mZKWgHztM9tzNp3QTGl-6OU",
+  "etag": "sDwYRg1usojy_l8P4B_GYc-lNIc",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "4Nouw3zamdt1-YvHSixl-1Fmtyo",
-      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLmpBaTN1YS1uOXlz",
+      "etag": "1UcwVP4myMhKwBXwf5wa3_0-mj8",
+      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLmxGUW9aX0RXY0Vv",
       "snippet": {
-        "publishedAt": "2023-08-16T08:53:11Z",
+        "publishedAt": "2023-08-16T09:48:10Z",
         "channelId": "UC_zkRpcTX_4aHjEeYK_tg7A",
         "title": "Wednesday, August 16th Morning Announcements",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/jAi3ua-n9ys/default.jpg",
+            "url": "https://i.ytimg.com/vi/lFQoZ_DWcEo/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/jAi3ua-n9ys/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/lFQoZ_DWcEo/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/jAi3ua-n9ys/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/lFQoZ_DWcEo/hqdefault.jpg",
             "width": 480,
             "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/jAi3ua-n9ys/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/jAi3ua-n9ys/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
           }
         },
         "channelTitle": "APRjags",
@@ -43,7 +33,7 @@
         "position": 0,
         "resourceId": {
           "kind": "youtube#video",
-          "videoId": "jAi3ua-n9ys"
+          "videoId": "lFQoZ_DWcEo"
         },
         "videoOwnerChannelTitle": "APRjags",
         "videoOwnerChannelId": "UC_zkRpcTX_4aHjEeYK_tg7A"
