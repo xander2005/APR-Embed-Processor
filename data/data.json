@@ -1,14 +1,14 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "MzUMuUu4mlaDmEiftNo-nB37EAE",
+  "etag": "EH-CYUH7koVctUYAvtf7RdTv0xc",
   "nextPageToken": "EAAaIVBUOkNBb2lFRFExTUVaRU1Ua3dPRFpEUTBRNE1qZ29BUQ",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "69NYvbxXJYXBMTIjD6_jJKaeH1w",
+      "etag": "Fos0I9qv1Ke80lG7ziOlCz2MDYQ",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLmc1bFFBS1dwc0dV",
       "snippet": {
-        "publishedAt": "2023-09-19T05:03:48Z",
+        "publishedAt": "2023-09-19T05:03:47Z",
         "channelId": "UC_zkRpcTX_4aHjEeYK_tg7A",
         "title": "Tuesday, September 19th Morning Announcements",
         "description": "",
@@ -32,6 +32,11 @@
             "url": "https://i.ytimg.com/vi/g5lQAKWpsGU/sddefault.jpg",
             "width": 640,
             "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/g5lQAKWpsGU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
           }
         },
         "channelTitle": "APRjags",
