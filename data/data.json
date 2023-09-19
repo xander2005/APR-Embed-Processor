@@ -1,42 +1,37 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "Q4vbdrxivh9YMzlEE5M8TQXXUJ4",
-  "nextPageToken": "EAAaIVBUOkNBb2lFRVZHTjBZME16TTNRalpGTWpjd09VWW9BUQ",
+  "etag": "MzUMuUu4mlaDmEiftNo-nB37EAE",
+  "nextPageToken": "EAAaIVBUOkNBb2lFRFExTUVaRU1Ua3dPRFpEUTBRNE1qZ29BUQ",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "OYk-OXtVXxIOEo4x8-aTeot4CMs",
-      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLlZxUGYxNmE5Q3Rj",
+      "etag": "69NYvbxXJYXBMTIjD6_jJKaeH1w",
+      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLmc1bFFBS1dwc0dV",
       "snippet": {
-        "publishedAt": "2023-09-19T01:50:51Z",
+        "publishedAt": "2023-09-19T05:03:48Z",
         "channelId": "UC_zkRpcTX_4aHjEeYK_tg7A",
-        "title": "Monday, September 18th Morning Announcements",
+        "title": "Tuesday, September 19th Morning Announcements",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/VqPf16a9Ctc/default.jpg",
+            "url": "https://i.ytimg.com/vi/g5lQAKWpsGU/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/VqPf16a9Ctc/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/g5lQAKWpsGU/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/VqPf16a9Ctc/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/g5lQAKWpsGU/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/VqPf16a9Ctc/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/g5lQAKWpsGU/sddefault.jpg",
             "width": 640,
             "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/VqPf16a9Ctc/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
           }
         },
         "channelTitle": "APRjags",
@@ -44,7 +39,7 @@
         "position": 0,
         "resourceId": {
           "kind": "youtube#video",
-          "videoId": "VqPf16a9Ctc"
+          "videoId": "g5lQAKWpsGU"
         },
         "videoOwnerChannelTitle": "APRjags",
         "videoOwnerChannelId": "UC_zkRpcTX_4aHjEeYK_tg7A"
