@@ -1,16 +1,16 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "0BndsLaZ0XjDfdAa0qYI44N0rY8",
+  "etag": "CbMEEmfvbx80XYGeaf03El39WAo",
   "nextPageToken": "EAAaIVBUOkNBb2lFRVEyTWpWQlFqUXdNamswUkRNNE1VUW9BUQ",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "e323l2AhMVBc5TUuL8M2MmtgWG0",
+      "etag": "kRYjej7Aswmd9zwSVOe8MtpXvRw",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLklvTTQxbjlZNVlB",
       "snippet": {
         "publishedAt": "2023-10-02T07:07:53Z",
         "channelId": "UC_zkRpcTX_4aHjEeYK_tg7A",
-        "title": "Monday, 2 Oct 2023 Morning Announcements",
+        "title": "Monday, October 2nd Morning Announcements",
         "description": "",
         "thumbnails": {
           "default": {
