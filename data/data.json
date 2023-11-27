@@ -1,40 +1,40 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "WDgzIN7R5Sa8n02Fha4gIP5FQUs",
-  "nextPageToken": "EAAaI1BUOkNBb2lFRFEzTmtJd1JFTXlOVVEzUkVWRk9FRW9BVkFC",
+  "etag": "9nKHzILSt3Om2Kwr3HYfnXE5bUw",
+  "nextPageToken": "EAAaI1BUOkNBb2lFRGswTWpNd1JVRTJPVGsxTVVaRU5rSW9BVkFC",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "jb7EFziR3mMZkod6g_40gZgb1qA",
-      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLmxzX3oxZ2dLTWh3",
+      "etag": "g-wpe14MPxrEHU6yUM8ACM0CDHg",
+      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLnJ1Mi04QnBrajc0",
       "snippet": {
-        "publishedAt": "2023-11-21T13:15:06Z",
+        "publishedAt": "2023-11-27T11:44:29Z",
         "channelId": "UC_zkRpcTX_4aHjEeYK_tg7A",
-        "title": "Thursday November 21, 2023 ANN",
+        "title": "Monday, 27 Nov 2023 APR Morning Announcements",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/ls_z1ggKMhw/default.jpg",
+            "url": "https://i.ytimg.com/vi/ru2-8Bpkj74/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/ls_z1ggKMhw/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/ru2-8Bpkj74/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/ls_z1ggKMhw/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/ru2-8Bpkj74/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/ls_z1ggKMhw/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/ru2-8Bpkj74/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/ls_z1ggKMhw/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/ru2-8Bpkj74/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -44,7 +44,7 @@
         "position": 0,
         "resourceId": {
           "kind": "youtube#video",
-          "videoId": "ls_z1ggKMhw"
+          "videoId": "ru2-8Bpkj74"
         },
         "videoOwnerChannelTitle": "APRjags",
         "videoOwnerChannelId": "UC_zkRpcTX_4aHjEeYK_tg7A"
