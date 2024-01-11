@@ -1,11 +1,11 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "bx3x0oLKvfKgwOj-iYIM3AIHe-8",
+  "etag": "HusON6P-IZ7-ELkVn-oASKpUhcI",
   "nextPageToken": "EAAafVBUOkNBb2lFRFl6TVRWQk1rRXdRamMyTWpoR09Ua29BVWpOMHRfT3BOV0RBMUFCV2pnaVEyaG9WbFpXT1RaaE1VcDNXVEZTV1ZoNlVtaFRSM0JHV2xac1RGZ3pVbTVPTUVWVFJFRnFSM05RTFhOQ2FFUkpjMXBETVVGUkln",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "nPPBspoJUy_VxYxwcQ5XaDl3me0",
+      "etag": "QS1bgSx5uFicaVT8uAoxGBX12PI",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLjctTi1ONGg1SVdR",
       "snippet": {
         "publishedAt": "2024-01-11T12:00:05Z",
