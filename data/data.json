@@ -1,11 +1,11 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "95xkPt4KwiVCfiNP-o54pHfE0m8",
+  "etag": "81ew2QYSUYcBvHjiO1uDMgq2H18",
   "nextPageToken": "EAAafVBUOkNBb2lFRUU0TlVReU5URkJOemcyUWtVd1JqY29BVWpHcDZMaDFwaUVBMUFCV2pnaVEyaG9WbFpXT1RaaE1VcDNXVEZTV1ZoNlVtaFRSM0JHV2xac1RGZ3pVbTVPTUVWVFJFRnFlREp2ZVhWQ2FFUjNjSEpFWkVGUkln",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "slHkUWRcvIVQu7Gni5GABhELF8I",
+      "etag": "35i0EvXz4xQ5fJKAEcLwVSKFKPI",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLkFOU3dvQy02ZF93",
       "snippet": {
         "publishedAt": "2024-02-07T07:12:48Z",
@@ -27,6 +27,16 @@
             "url": "https://i.ytimg.com/vi/ANSwoC-6d_w/hqdefault.jpg",
             "width": 480,
             "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ANSwoC-6d_w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ANSwoC-6d_w/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
           }
         },
         "channelTitle": "APRjags",
