@@ -1,11 +1,58 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "erI9LqSWwl1J7q3TY4uw93eXPcM",
-  "nextPageToken": "EAAaelBUOkNBb2lFRFEzTmtJd1JFTXlOVVEzUkVWRk9FRW9BVWk1Nk1EenJMLUVBMUFCV2pZaVEyaG9WbFpXT1RaaE1VcDNXVEZTV1ZoNlVtaFRSM0JHV2xac1RGZ3pVbTVPTUVWVFEzZHBURFpPTW5WQ2FFTnZiMlpXYnlJ",
+  "etag": "68Mb-RltppDBci6QsqisLAzBdvg",
+  "nextPageToken": "EAAaelBUOkNBb2lFRVZDTnpKRU5rRXdRekkxTmpjNU4wUW9BVWpWdmNLcnI4R0VBMUFCV2pZaVEyaG9WbFpXT1RaaE1VcDNXVEZTV1ZoNlVtaFRSM0JHV2xac1RGZ3pVbTVPTUVWVFEzZHBTbWgxUzNWQ2FFTkpjbEJWVVNJ",
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "l_ec5wYeOy-Q_PjpizX2lT4ngJk",
+      "etag": "mCgrlqYzOcv38z5doRzMqtkbv3c",
+      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLkx5WkM4NUVtNXRN",
+      "snippet": {
+        "publishedAt": "2024-02-23T11:35:36Z",
+        "channelId": "UC_zkRpcTX_4aHjEeYK_tg7A",
+        "title": "Friday, 23 Feb 2024 APR Morning Announcements",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LyZC85Em5tM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LyZC85Em5tM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LyZC85Em5tM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LyZC85Em5tM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LyZC85Em5tM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "APRjags",
+        "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LyZC85Em5tM"
+        },
+        "videoOwnerChannelTitle": "APRjags",
+        "videoOwnerChannelId": "UC_zkRpcTX_4aHjEeYK_tg7A"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Ic1v83Xj_DhpEkMcE5SSiwMf1Ic",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLnBrbE9RRmNlbkFZ",
       "snippet": {
         "publishedAt": "2024-02-22T07:01:32Z",
@@ -41,7 +88,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 0,
+        "position": 1,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "pklOQFcenAY"
@@ -52,7 +99,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "IZxROeRL-Tjs4cY5VwR52TjTIG0",
+      "etag": "utYTF82Fda6sB-Yt4OM9U2wj7T8",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLnRHVnN1bU9pR2k0",
       "snippet": {
         "publishedAt": "2024-02-21T08:04:41Z",
@@ -88,7 +135,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 1,
+        "position": 2,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "tGVsumOiGi4"
@@ -99,7 +146,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "kD39pgvT4H0HURcF1JzYa4gDIos",
+      "etag": "TIheEK_VVekJqWDozSJFGidzr6Q",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLldxRWtadmJCa29R",
       "snippet": {
         "publishedAt": "2024-02-20T07:31:12Z",
@@ -135,7 +182,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 2,
+        "position": 3,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "WqEkZvbBkoQ"
@@ -146,7 +193,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "_RXduL5tOrkS7FCyN1Jnh4UN4Oc",
+      "etag": "FWuhn4lYhRVXzO0JpfZ7Pfw2dK8",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLm1DWl95S2VxZGJR",
       "snippet": {
         "publishedAt": "2024-02-16T11:05:33Z",
@@ -182,7 +229,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 3,
+        "position": 4,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "mCZ_yKeqdbQ"
@@ -193,7 +240,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "BvCIurx3qkSk4gGKrT7mhB7nwRo",
+      "etag": "FzgBXTxITlXqIO5GjUhCq_NDCzw",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLkFETUFaUDIxOGMw",
       "snippet": {
         "publishedAt": "2024-02-15T11:49:53Z",
@@ -229,7 +276,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 4,
+        "position": 5,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "ADMAZP218c0"
@@ -240,7 +287,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "w6zVzdVDpOY0l4ADb6QMSi8EP_E",
+      "etag": "umwOShTojqNF-WhY_jE4JVcF_tI",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLjNyRVV0eWxDcUpz",
       "snippet": {
         "publishedAt": "2024-02-14T12:02:22Z",
@@ -276,7 +323,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 5,
+        "position": 6,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "3rEUtylCqJs"
@@ -287,7 +334,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "K1zDhiIItxBivN6CSecR_f8P_P8",
+      "etag": "NX2t377r0CzHacQF7o8Pmgcm_hI",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLjlWd1hPOTVSRFBN",
       "snippet": {
         "publishedAt": "2024-02-13T11:57:38Z",
@@ -323,7 +370,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 6,
+        "position": 7,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "9VwXO95RDPM"
@@ -334,7 +381,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "aGmaoeHAekI6M0lNfSU7Zdo4dtQ",
+      "etag": "x8X0NCP_6izfIpb6q6O9BUAfoNA",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLlZab0Y4X0N6Nmk4",
       "snippet": {
         "publishedAt": "2024-02-12T11:27:58Z",
@@ -370,7 +417,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 7,
+        "position": 8,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "VZoF8_Cz6i8"
@@ -381,7 +428,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "bhxgApvBZLsi-pIhwMGtUTrheQs",
+      "etag": "CiXr99URZO3kHp4XSzg5ox8Sosw",
       "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLm9xV1JXYl9nT0lv",
       "snippet": {
         "publishedAt": "2024-02-09T12:14:39Z",
@@ -417,7 +464,7 @@
         },
         "channelTitle": "APRjags",
         "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 8,
+        "position": 9,
         "resourceId": {
           "kind": "youtube#video",
           "videoId": "oqWRWb_gOIo"
@@ -425,57 +472,10 @@
         "videoOwnerChannelTitle": "APRjags",
         "videoOwnerChannelId": "UC_zkRpcTX_4aHjEeYK_tg7A"
       }
-    },
-    {
-      "kind": "youtube#playlistItem",
-      "etag": "6JgzBNzVEAMsX4THlicGfrYV0_Q",
-      "id": "VVVfemtScGNUWF80YUhqRWVZS190ZzdBLkR2LS1ZRU1wTS1B",
-      "snippet": {
-        "publishedAt": "2024-02-08T11:29:53Z",
-        "channelId": "UC_zkRpcTX_4aHjEeYK_tg7A",
-        "title": "Thursday, 08 Feb 2024 APR Morning Announcements",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Dv--YEMpM-A/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Dv--YEMpM-A/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Dv--YEMpM-A/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/Dv--YEMpM-A/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/Dv--YEMpM-A/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "APRjags",
-        "playlistId": "UU_zkRpcTX_4aHjEeYK_tg7A",
-        "position": 9,
-        "resourceId": {
-          "kind": "youtube#video",
-          "videoId": "Dv--YEMpM-A"
-        },
-        "videoOwnerChannelTitle": "APRjags",
-        "videoOwnerChannelId": "UC_zkRpcTX_4aHjEeYK_tg7A"
-      }
     }
   ],
   "pageInfo": {
-    "totalResults": 120,
+    "totalResults": 121,
     "resultsPerPage": 10
   }
 }
