@@ -1,7 +1,7 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "mIoK7xg30CeYxRYdbcS-gnlcie0",
-  "nextPageToken": "EAAaelBUOkNBRWlFREk0T1VZMFFUUTJSRVl3UVRNd1JESW9BVWlyei1POXNicUdBMUFCV2pZaVEyaG9WbFpXT1RaaE1VcDNXVEZTV1ZoNlVtaFRSM0JHV2xac1RGZ3pVbTVPTUVWVFEzZHFYMjkxZVhsQ2FFUTBMVGxKV1NJ",
+  "etag": "mGlZzAbRs1B3M4s0HT5-3s87geE",
+  "nextPageToken": "EAAafVBUOkNBRWlFRFF6TVVRM05URXhNa1kwTVVRd05VRW9BVWk1NVpYUzk1eUhBMUFCV2pnaVEyaG9WbFpXT1RaaE1VcDNXVEZTV1ZoNlVtaFRSM0JHV2xac1RGZ3pVbTVPTUVWVFJFRnFiUzFNY1RCQ2FFTnZlbGsyTmtGbkln",
   "items": [
     {
       "kind": "youtube#playlistItem",
@@ -52,7 +52,7 @@
     }
   ],
   "pageInfo": {
-    "totalResults": 173,
+    "totalResults": 167,
     "resultsPerPage": 1
   }
 }
