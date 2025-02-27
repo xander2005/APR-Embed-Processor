@@ -1,7 +1,7 @@
 {
   "kind": "youtube#playlistItemListResponse",
-  "etag": "CZNZBVLrX4j9LImNqlpYFUYuEpA",
-  "nextPageToken": "EAAafVBUOkNBRWlFRFJDT0VaRk5USTBNekF6TnpGQk1rTW9BVWlkN2JPMzI2YUxBMUFCV2pnaVEyaG9WbFpXT1RaaE1VcDNXVEZTV1ZoNlVtaFRSM0JHV2xac1RGZ3pVbTVPTUVWVFJFRnFOVzFKUnpsQ2FFUkpkRzltYzBGbkln",
+  "etag": "jjJlUtTjpwmzDvHRk2agviKJq-U",
+  "nextPageToken": "EAAaHlBUOkNBRWlFRFJDT0VaRk5USTBNekF6TnpGQk1rTQ",
   "items": [
     {
       "kind": "youtube#playlistItem",
